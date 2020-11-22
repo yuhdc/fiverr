@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #62646a;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a, a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none !important;
+}
+
+ul li {
+  display: inline-block;
+}
+
+header {
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  top: 0px;
+  width: 100%;
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+header .navbar-wrapper .row {
+  justify-content: space-between;
+  align-items: center;
+  line-height: 80px;
+}
+
+header .navbar-wrapper .row .navbar__menu {
+  flex-grow: 1;
+  max-width: 700px;
+}
+
+header .navbar-wrapper .row .navbar__menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header .navbar-wrapper .row .navbar__menu ul .header-join {
+  border: #fff solid 1px;
+  padding: 7px 20px;
+  line-height: 14px;
+  border-radius: 3px;
+}
+
+header .navbar-wrapper .row .navbar__menu ul .header-join:hover {
+  background-color: #19a463;
+}
+
+header .sub-navbar {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  color: black;
+}
+
+header i {
+  padding-right: 5px;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  header .container {
+    min-width: 90%;
+  }
+}
+
+.carousel .carousel-warpper {
+  color: #fff;
+}
+
+.carousel img {
+  height: 700px;
+  object-fit: cover;
+  object-position: center center;
+}
+/*# sourceMappingURL=main.css.map */

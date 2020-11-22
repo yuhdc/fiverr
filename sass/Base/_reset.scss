@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    @include styleText($color-gray-0, $fs-2, $fw-normal);
+}
+
+a,a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: $color-white-0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none !important;
+    li {
+        display: inline-block;
+    }
+}
