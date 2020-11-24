@@ -7,18 +7,21 @@
     vertical-align: baseline;
     background: 0 0;
     box-sizing: border-box;
+    transition: all 0.5 ease-in-out;
 }
 
 html,
 body {
     font-family: "Roboto Condensed", sans-serif;
     @include styleText($color-gray-0, $fs-2, $fw-normal);
+    scroll-behavior: smooth;
 }
 
-a,a:hover {
+a,
+a:hover {
     text-decoration: none;
     cursor: pointer;
-    color: $color-white-0;
+    color: inherit;
 }
 
 h1,

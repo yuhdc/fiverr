@@ -1,10 +1,60 @@
 .carousel {
-    .carousel-warpper {
-        color: $color-white-0;
+    position: relative;
+    color: $color-white-0;
+    .carousel-item-info {
+        position: absolute;
+        bottom: 30px;
+        right: 80px;
     }
-    img{
+    .carousel-content {
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        z-index: 1;
+        h1 {
+            @include styleText($color-white-0, 48px, 500px);
+            line-height: 56px;
+        }
+        .popular {
+            display: inline-block;
+            margin-top: 20px;
+            a {
+                border: 1px white solid;
+                margin: 4px 2px;
+                border-radius: 16px;
+                padding: 5px 10px;
+                @include styleText($color-white-0, $fs-0, $fw-normal);
+            }
+        }
+        .search-bar {
+            height: 50px;
+            line-height: 50px;
+            form {
+                display: inline-block;
+                width: 85%;
+                padding-right: 0;
+                margin-right: 0;
+                input {
+                    width: 200px;
+                }
+            }
+            button {
+                margin-left: 0;
+            }
+        }
+    }
+    img {
         height: 700px;
         object-fit: cover;
         object-position: center center;
+    }
+}
+
+//responsive
+.carousel {
+    @include responsivemin("extra-large") {
+        .carousel-content {
+            max-width: 650px;
+        }
     }
 }
