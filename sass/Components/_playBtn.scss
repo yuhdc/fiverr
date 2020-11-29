@@ -1,0 +1,18 @@
+.video-modal {
+    position: relative;
+    &::after {
+        content: "";
+        display: inline-block;
+        background: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/desktop-play-button.c1196d6.png)
+            no-repeat;
+        background-size: 80px;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        z-index: 1000;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}

@@ -1,11 +1,14 @@
 .carousel {
     position: relative;
     color: $color-white-0;
-    .carousel-item-info {
-        position: absolute;
-        bottom: 30px;
-        right: 80px;
-    }
+    // .carousel-item {
+    //     position: relative;
+    //     .carousel-item-info {
+    //         position: absolute;
+    //         bottom: 30px;
+    //         right: 80px;
+    //     }
+    // }
     .carousel-content {
         position: absolute;
         top: 30%;

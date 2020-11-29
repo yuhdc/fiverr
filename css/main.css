@@ -140,12 +140,6 @@ ul {
   color: #fff;
 }
 
-.carousel .carousel-item-info {
-  position: absolute;
-  bottom: 30px;
-  right: 80px;
-}
-
 .carousel .carousel-content {
   position: absolute;
   top: 30%;
@@ -205,5 +199,187 @@ ul {
   .carousel .carousel-content {
     max-width: 650px;
   }
+}
+
+.partner {
+  margin-bottom: 96px;
+}
+
+.partner .partner-wrapper {
+  height: 95px;
+  line-height: 95px;
+  padding: 20px 0;
+}
+
+.partner .partner-wrapper ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.partner .partner-wrapper ul li {
+  color: #b5b6ba;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.partner .partner-wrapper ul li:nth-child(1) {
+  padding-right: 20px;
+}
+
+.service {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.service small {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.service .service-tab-member {
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  height: 345px;
+  width: 100%;
+  position: relative;
+}
+
+.service .service-tab-member h4 {
+  z-index: 1;
+  color: #fff;
+  padding: 16px;
+}
+
+.service .service-tab-member .service-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  overflow: hidden;
+}
+
+.service a.col-3:hover .service-overlay {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.mfp-content {
+  text-align: center;
+}
+
+.selling {
+  background-color: #f1fdf7;
+  padding-top: 96px;
+}
+
+.selling .selling-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 32px 32px 64px;
+}
+
+.selling .selling-wrapper .selling-text {
+  padding-right: 10%;
+}
+
+.selling .selling-wrapper .selling-text h2 {
+  padding-bottom: 18px;
+  line-height: 110%;
+  color: #404145;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.selling .selling-wrapper .selling-text ul li {
+  padding-bottom: 15px;
+}
+
+.selling .selling-wrapper .selling-text ul li h6 {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 8px;
+  color: #404145;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.selling .selling-wrapper .selling-text ul li p {
+  color: #62646a;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.video-modal #sellingVid {
+  display: none;
+}
+
+.video-modal a:hover #sellingVid {
+  display: flex !important;
+}
+
+.bussiness {
+  background-color: #0d084d;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 45%;
+  left: -2%;
+  padding: 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+  background-color: #fff !important;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.1);
+  z-index: 10;
+}
+
+.owl-prev span,
+.owl-next span {
+  color: #222325;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 0.6;
+}
+
+.owl-prev:focus,
+.owl-next:focus {
+  outline: none;
+}
+
+.owl-next {
+  left: unset;
+  right: -2%;
+}
+
+.video-modal {
+  position: relative;
+}
+
+.video-modal::after {
+  content: "";
+  display: inline-block;
+  background: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/desktop-play-button.c1196d6.png) no-repeat;
+  background-size: 80px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=main.css.map */
