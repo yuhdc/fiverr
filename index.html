@@ -8,6 +8,8 @@
     <!-- FONT GOOGLE  -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
         integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
@@ -306,22 +308,23 @@
                     </ul>
                 </div>
                 <div class="col-15-xs col-8-md">
-                    <div class="video-modal">
-                        <a class="picture-wrapper" href="#sellingVid" id="popupVid">
+                    <a class="" href="#sellingVid" id="popupVid">
+                        <div class="picture-wrapper video-modal">
                             <img src="./img/homepage/selling-proposition-still-1400-x1.png" alt="">
-                        </a>
-                        <div id="sellingVid">
-                            <video controls allowfullscreen>
-                                <source
+                            <div id="sellingVid">
+                                <video controls allowfullscreen>
+                                    <source
+                                        src="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/vmvv3czyk2ifedefkau7"
+                                        type="video/mp4">
+                                </video>
+                                <!-- <iframe
                                     src="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/vmvv3czyk2ifedefkau7"
-                                    type="video/mp4">
-                            </video>
-                            <!-- <iframe
-                                src="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/vmvv3czyk2ifedefkau7"
-                                frameborder="0" controls >
-                            </iframe> -->
+                                    frameborder="0" controls >
+                                </iframe> -->
+                            </div>
                         </div>
-                    </div>
+
+                    </a>
                 </div>
             </div>
         </div>
@@ -330,10 +333,12 @@
 
     </section>
     <section class="bussiness">
-        <div class="business-section max-width-container">
-            <div class="d-flex">
-                <div class="col-15-xs col-7-md business-text">
-                    <small><i class="fiverr-business-logo"><svg width="219" height="27" viewBox="0 0 219 27" fill="none"
+        <div class="business-wrapper container-fluid">
+            <div class="row">
+                <div class="col-5 business-text">
+                    <small>
+                        <i class="fiverr-business-logo">
+                            <svg width="219" height="27" viewBox="0 0 219 27" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g fill="#fff">
                                     <path
@@ -368,21 +373,30 @@
                                         d="M218.3,24.4L218.3,24.4c0,0.6-0.2,1.2-0.7,1.6c-0.4,0.4-1,0.7-1.6,0.7c-0.6,0-1.2-0.2-1.6-0.7 c-0.4-0.4-0.7-1-0.7-1.6v0c0-0.6,0.2-1.2,0.7-1.6c0.4-0.4,1-0.7,1.6-0.7c0.6,0,1.2,0.2,1.6,0.7C218.1,23.2,218.3,23.8,218.3,24.4z">
                                     </path>
                                 </g>
-                            </svg></i><span
-                            class="fit-tag text-upper fit-tag-full-business fit-tag-full fit-tag-business fit-tag-tiny">New</span></small>
+                            </svg>
+                        </i>
+                        <span class="text-upper business-new">
+                            New
+                        </span>
+                    </small>
                     <h2><span>A business solution designed for <i>teams</i></span></h2>
-                    <p class="tbody-4">Upgrade to a curated experience packed with tools and benefits, dedicated to
+                    <p class="bussiness-info">Upgrade to a curated experience packed with tools and benefits, dedicated
+                        to
                         businesses</p>
                     <ul>
-                        <li><span class="fit-icon" style="width: 24px; height: 24px; fill: rgb(122, 125, 133);"><svg
-                                    width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <li>
+                            <span class="fit-icon" style="width: 24px; height: 24px; fill: rgb(122, 125, 133);">
+                                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M8 1.75C4.54822 1.75 1.75 4.54822 1.75 8C1.75 11.4518 4.54822 14.25 8 14.25C11.4518 14.25 14.25 11.4518 14.25 8C14.25 4.54822 11.4518 1.75 8 1.75ZM0.25 8C0.25 3.71979 3.71979 0.25 8 0.25C12.2802 0.25 15.75 3.71979 15.75 8C15.75 12.2802 12.2802 15.75 8 15.75C3.71979 15.75 0.25 12.2802 0.25 8Z">
                                     </path>
                                     <path
                                         d="M11.5303 5.46967C11.8232 5.76256 11.8232 6.23744 11.5303 6.53033L7.53033 10.5303C7.23744 10.8232 6.76256 10.8232 6.46967 10.5303L4.46967 8.53033C4.17678 8.23744 4.17678 7.76256 4.46967 7.46967C4.76256 7.17678 5.23744 7.17678 5.53033 7.46967L7 8.93934L10.4697 5.46967C10.7626 5.17678 11.2374 5.17678 11.5303 5.46967Z">
                                     </path>
-                                </svg></span>Connect to freelancers with proven business experience</li>
+                                </svg>
+                            </span>
+                            Connect to freelancers with proven business experience
+                        </li>
                         <li><span class="fit-icon" style="width: 24px; height: 24px; fill: rgb(122, 125, 133);"><svg
                                     width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -400,61 +414,257 @@
                                     <path
                                         d="M11.5303 5.46967C11.8232 5.76256 11.8232 6.23744 11.5303 6.53033L7.53033 10.5303C7.23744 10.8232 6.76256 10.8232 6.46967 10.5303L4.46967 8.53033C4.17678 8.23744 4.17678 7.76256 4.46967 7.46967C4.76256 7.17678 5.23744 7.17678 5.53033 7.46967L7 8.93934L10.4697 5.46967C10.7626 5.17678 11.2374 5.17678 11.5303 5.46967Z">
                                     </path>
-                                </svg></span>Manage teamwork and boost productivity with one powerful workspace</li>
+                                </svg></span>
+                            Manage teamwork and boost productivity with one powerful workspace
+                        </li>
                     </ul>
-                    <a class="fit-button fit-button-color-green fit-button-fill-full fit-button-size-medium co-white bg-co-green-700"
-                        href="/business?source=hplo_banner_business">Explore Fiverr Business</a>
+                    <a class="btn btn-success" href="#">Explore Fiverr Business</a>
                 </div>
-                <div class="col-15-xs col-8-md business-image">
-                    <picture>
-                        <source media="(min-width: 1160px)"
-                            srcset="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_870,dpr_1.0/v1/attachments/generic_asset/asset/d9c17ceebda44764b591a8074a898e63-1599597624757/business-desktop-870-x1.png 1x, https://fiverr-res.cloudinary.com/q_auto,f_auto,w_870,dpr_2.0/v1/attachments/generic_asset/asset/d9c17ceebda44764b591a8074a898e63-1599597624768/business-desktop-870-x2.png 2x">
-                        <source media="(min-width: 900px)"
-                            srcset="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_585,dpr_1.0/v1/attachments/generic_asset/asset/d9c17ceebda44764b591a8074a898e63-1599597624769/business-desktop-585-x1.png 1x, https://fiverr-res.cloudinary.com/q_auto,f_auto,w_585,dpr_2.0/v1/attachments/generic_asset/asset/d9c17ceebda44764b591a8074a898e63-1599597624759/business-desktop-585-x2.png 2x">
-                        <source media="(min-width: 600px)"
-                            srcset="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_836,dpr_1.0/v1/attachments/generic_asset/asset/7d30a5eab61a328ed8c036a1d998595d-1599837114294/business-mobile-836-x1.png 1x, https://fiverr-res.cloudinary.com/q_auto,f_auto,w_836,dpr_2.0/v1/attachments/generic_asset/asset/7d30a5eab61a328ed8c036a1d998595d-1599837114278/business-mobile-836-x2.png 2x">
-                        <source media="(min-width: 361px)"
-                            srcset="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_552,dpr_1.0/v1/attachments/generic_asset/asset/7d30a5eab61a328ed8c036a1d998595d-1599837114277/business-mobile-552-x1.png 1x, https://fiverr-res.cloudinary.com/q_auto,f_auto,w_552,dpr_2.0/v1/attachments/generic_asset/asset/7d30a5eab61a328ed8c036a1d998595d-1599837114289/business-mobile-552-x2.png 2x">
-                        <source media="(max-width: 360px)"
-                            srcset="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_312,dpr_1.0/v1/attachments/generic_asset/asset/7d30a5eab61a328ed8c036a1d998595d-1599837114294/business-mobile-312-x1.png 1x, https://fiverr-res.cloudinary.com/q_auto,f_auto,w_312,dpr_2.0/v1/attachments/generic_asset/asset/7d30a5eab61a328ed8c036a1d998595d-1599837114288/business-mobile-312-x2.png 2x">
-                        <img alt="Fiverr Business freelancers"
-                            src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_870,dpr_1.0/v1/attachments/generic_asset/asset/d9c17ceebda44764b591a8074a898e63-1599597624757/business-desktop-870-x1.png"
-                            loading="lazy"></picture>
+                <div class="col-7 business-image">
+                    <div>
+                        <img alt="Fiverr Business freelancers" src=".//img/homepage/business-desktop-870-x1.png"
+                            loading="lazy">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="testimonial">
         <div class="testimonial-wrapper container-fluid">
-            <div class="testimonial-content row">
-                <div class="col-5 video-modal">
-                    <img alt="Video teaser image"
-                        src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_560,dpr_1.0/v1/attachments/generic_asset/asset/42a6fd208670a0361b38bd72b47b9317-1599519173395/testimonial-video-still-haerfest.jpg"
-                        loading="lazy">
+            <div class="testimonial-content owl-carousel owl-theme" id="testimonial-carousel">
+                <div class="d-flex">
+                    <a class="col-5" href="#testimonialVid1">
+                        <div class="video-modal"><img alt="Video teaser image"
+                                src="./img/homepage/testimonial-video-still-haerfest.jpg" style="width:100%;height:100%"
+                                loading="lazy">
+                            <!-- <iframe src="" frameborder="0" id="testimonialVid1"></iframe> -->
+                        </div>
+                    </a>
+                    <div class="col-7">
+                        <div class="text-content">
+                            <h5>
+                                Tim and Dan Joo, Co-Founders
+                                <span class="testimonial-logo">
+                                    <img alt="Company logo" src="./img/homepage/haerfest-logo-x2.03fa5c5.png"
+                                        loading="lazy">
+                                </span>
+                            </h5>
+                            <blockquote class="font-domaine">
+                                <i>"When you want to create a business bigger than yourself,
+                                    you
+                                    need a lot of help. That's what Fiverr does."
+                                </i>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-7">
-                    <div class="text-content">
-                        <h5>
-                            Tim and Dan Joo, Co-Founders
-                            <span class="testimonial-logo">
-                                <img alt="Company logo"
-                                    src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/haerfest-logo-x2.03fa5c5.png"
-                                    loading="lazy">
-                            </span>
-                        </h5>
-                        <blockquote class="font-domaine">
-                            <i>"When you want to create a business bigger than yourself,
-                                you
-                                need a lot of help. That's what Fiverr does."
-                            </i>
-                        </blockquote>
+                <div class="d-flex">
+                    <a href="#testimonialVid1" class="col-5 video-modal">
+                        <div class="video-modal">
+                            <img alt="Video teaser image" src="./img/homepage/testimonial-video-still-naadam.jpg"
+                                style="width:100%;height:100%" loading="lazy">
+                        </div>
+                        <!-- <iframe src="" frameborder="0" id="testimonialVid1"></iframe> -->
+                    </a>
+                    <div class="col-7">
+                        <div class="text-content">
+                            <h5>
+                                Tim and Dan Joo, Co-Founders
+                                <span class="testimonial-logo">
+                                    <img alt="Company logo" src="./img/homepage/naadam-logo-x2.0a3b198.png"
+                                        loading="lazy">
+                                </span>
+                            </h5>
+                            <blockquote class="font-domaine">
+                                <i>"When you want to create a business bigger than yourself,
+                                    you
+                                    need a lot of help. That's what Fiverr does."
+                                </i>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <a class="col-5" href="#testimonialVid1">
+                        <div class="video-modal">
+                            <img alt="Video teaser image" src="./img/homepage/testimonial-video-still-lavender.jpg"
+                                style="width:100%;height:100%" loading="lazy">
+                        </div>
+                        <!-- <iframe src="" frameborder="0" id="testimonialVid1"></iframe> -->
+                    </a>
+                    <div class="col-7">
+                        <div class="text-content">
+                            <h5>
+                                Tim and Dan Joo, Co-Founders
+                                <span class="testimonial-logo">
+                                    <img alt="Company logo" src="./img/homepage/lavender-logo-x2.89c5e2e.png"
+                                        loading="lazy">
+                                </span>
+                            </h5>
+                            <blockquote class="font-domaine">
+                                <i>"When you want to create a business bigger than yourself,
+                                    you
+                                    need a lot of help. That's what Fiverr does."
+                                </i>
+                            </blockquote>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="made-on"> </section>
-    <section class="guide"> </section>
+    <section class="madeBy">
+        <div class="madeBy-wrapper container-fluid">
+            <h2>Get inspired with projects made by our freelancers
+                <a href="#" class="madeBy-seeMore">See more projects <i class="fa fa-angle-right"></i></a>
+            </h2>
+            <div class="madeBy-tab d-flex owl-carousel owl-theme" id="card-carousel">
+                <div class="madeBy-card">
+                    <a href="#">
+                        <img alt="Flyer Design" class="gig-image" src="./img/homepage/spickex.jpg" loading="lazy">
+                        </picture>
+                    </a>
+                    <div class="madeBy-info">
+                        <a href="#" class="seller-image">
+                            <img alt="Seller profile image" src="./img/homepage/fiverr_profile.jpg" loading="lazy">
+                        </a>
+                        <span class="gig-info">
+                            <b>
+                                <a href="#">Flyer
+                                    Design
+                                </a>
+                            </b>
+                            <br>
+                            <a href="#">by&nbsp;spickex</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="madeBy-card">
+                    <a href="#">
+                        <img alt="Flyer Design" class="gig-image" src="./img/homepage/evelinaro.jpg" loading="lazy">
+                        </picture>
+                    </a>
+                    <div class="madeBy-info">
+                        <a href="#" class="seller-image">
+                            <img alt="Seller profile image" src="./img/homepage/fiverr_profile.jpg" loading="lazy">
+                        </a>
+                        <span class="gig-info">
+                            <b>
+                                <a href="#">Flyer
+                                    Design
+                                </a>
+                            </b>
+                            <br>
+                            <a href="#">by&nbsp;spickex</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="madeBy-card">
+                    <a href="#">
+                        <img alt="Flyer Design" class="gig-image" src="./img/homepage/artsi3d.jpg" loading="lazy">
+                        </picture>
+                    </a>
+                    <div class="madeBy-info">
+                        <a href="#" class="seller-image">
+                            <img alt="Seller profile image" src="./img/homepage/fiverr_profile.jpg" loading="lazy">
+                        </a>
+                        <span class="gig-info">
+                            <b>
+                                <a href="#">Flyer
+                                    Design
+                                </a>
+                            </b>
+                            <br>
+                            <a href="#">by&nbsp;spickex</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="madeBy-card">
+                    <a href="#">
+                        <img alt="Flyer Design" class="gig-image" src="./img/homepage/carmelacaldart0.jpg"
+                            loading="lazy"></picture>
+                    </a>
+                    <div class="madeBy-info">
+                        <a href="#" class="seller-image">
+                            <img alt="Seller profile image" src="./img/homepage/fiverr_profile.jpg" loading="lazy">
+                        </a>
+                        <span class="gig-info">
+                            <b>
+                                <a href="#">Flyer
+                                    Design
+                                </a>
+                            </b>
+                            <br>
+                            <a href="#">by&nbsp;spickex</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="madeBy-card">
+                    <a href="#">
+                        <img alt="Flyer Design" class="gig-image" src="./img/homepage/designerheather.jpg"
+                            loading="lazy"></picture>
+                    </a>
+                    <div class="madeBy-info">
+                        <a href="#" class="seller-image">
+                            <img alt="Seller profile image" src="./img/homepage/fiverr_profile.jpg" loading="lazy">
+                        </a>
+                        <span class="gig-info">
+                            <b>
+                                <a href="#">Flyer
+                                    Design
+                                </a>
+                            </b>
+                            <br>
+                            <a href="#">by&nbsp;spickex</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="madeBy-card">
+                    <a href="#">
+                        <img alt="Flyer Design" class="gig-image" src="./img/homepage/digitalgeria.jpg" loading="lazy">
+                        </picture>
+                    </a>
+                    <div class="madeBy-info">
+                        <a href="#" class="seller-image">
+                            <img alt="Seller profile image" src="./img/homepage/fiverr_profile.jpg" loading="lazy">
+                        </a>
+                        <span class="gig-info">
+                            <b>
+                                <a href="#">Flyer
+                                    Design
+                                </a>
+                            </b>
+                            <br>
+                            <a href="#">by&nbsp;spickex</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="guide">
+        <div class="fiverr-guides container-fluid">
+            <h2>Fiverr guides</h2>
+            <div class="row">
+                <a href="#" class="guide col-xs-12 col-sm-6 col-md-4" target="_blank">
+                    <img src="./img/homepage/guide-start-online-business-552-x2.png" alt="">
+                    <h6>Start an online business and work from home</h6>
+                    <p>A complete guide to starting a small business online</p>
+                </a>
+                <a href="#" class="guide col-xs-12 col-sm-6 col-md-4" target="_blank">
+                    <img src="./img/homepage/guide-digital-marketing-552-x2.png" alt="">
+                    <h6>Digital marketing made easy</h6>
+                    <p>A practical guide to understand what is digital marketing</p>
+                </a>
+                <a href="#" class="guide col-xs-12 col-sm-6 col-md-4" target="_blank">
+                    <img src="./img/homepage/guide-create-a-logo-552-x2.png" alt="">
+                    <h6>Create a logo for your business</h6>
+                    <p>A step-by-step guide to create a memorable business logo</p>
+                </a>
+            </div>
+            <a class="see-more-link" href="/resources/guides" target="_blank">See More Guides</a>
+        </div>
+    </section>
     <section class="banner"> </section>
     <footer></footer>
 

@@ -1,0 +1,30 @@
+.testimonial {
+    margin-bottom: 96px;
+    .testimonial-wrapper {
+        width: 95%;
+        margin: 0 auto;
+        padding: 32px 32px 64px;
+    }
+    .text-content {
+        padding: 0 48px 0 64px;
+        max-width: 840px;
+        width: 100%;
+        h5 {
+            padding-bottom: 16px;
+            line-height: 140%;
+            @include styleText($color-gray-2, $fs-4, $fw-normal);
+            .testimonial-logo img {
+                display: inline-block;
+                height: 40px;
+                margin-left: 12px;
+                width: 200px;
+            }
+        }
+        blockquote {
+            font-family: "Domine", serif;
+            font-size: $fs-5;
+            line-height: 44px;
+            color: #003912;
+        }
+    }
+}

@@ -12,7 +12,7 @@
 
 html,
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed", "Domine", sans-serif;
   color: #62646a;
   font-size: 16px;
   font-weight: 400;
@@ -327,6 +327,185 @@ ul {
 
 .bussiness {
   background-color: #0d084d;
+  padding: 80px;
+  margin-bottom: 96px;
+}
+
+.bussiness .bussiness-wrapper {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 32px 32px 64px;
+}
+
+.business-text {
+  padding-right: 7%;
+  color: #fff;
+}
+
+.business-text .business-new {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  border: solid 1px 584aff;
+  background-color: #584aff;
+  padding: 3px 7px 2px;
+  border-radius: 999px;
+  text-align: center;
+}
+
+.business-text small {
+  display: block;
+  padding-bottom: 32px;
+}
+
+.business-text h2 {
+  padding-bottom: 24px;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.business-text .bussiness-info {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.business-text ul {
+  padding-bottom: 20px;
+}
+
+.business-text ul li {
+  padding-bottom: 12px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.business-text ul li .fit-icon svg {
+  width: 100%;
+  height: 100%;
+  margin-right: 10px;
+  max-width: 24px;
+}
+
+.business-text a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  line-height: 100%;
+  text-decoration: none;
+  transition: 0.15s ease-in-out;
+}
+
+.testimonial {
+  margin-bottom: 96px;
+}
+
+.testimonial .testimonial-wrapper {
+  width: 95%;
+  margin: 0 auto;
+  padding: 32px 32px 64px;
+}
+
+.testimonial .text-content {
+  padding: 0 48px 0 64px;
+  max-width: 840px;
+  width: 100%;
+}
+
+.testimonial .text-content h5 {
+  padding-bottom: 16px;
+  line-height: 140%;
+  color: #7a7d85;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.testimonial .text-content h5 .testimonial-logo img {
+  display: inline-block;
+  height: 40px;
+  margin-left: 12px;
+  width: 200px;
+}
+
+.testimonial .text-content blockquote {
+  font-family: "Domine", serif;
+  font-size: 32px;
+  line-height: 44px;
+  color: #003912;
+}
+
+.madeBy {
+  background-color: #f5f5f5;
+  margin-bottom: 96px;
+}
+
+.madeBy .madeBy-wrapper {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.madeBy h2 {
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.madeBy .madeBy-seeMore {
+  position: absolute;
+  right: 100px;
+  padding-top: 16px;
+  color: blue;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.madeBy .madeBy-tab {
+  padding: 32px -5px 64px;
+}
+
+.madeBy .madeBy-tab .seller-image img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.madeBy .madeBy-tab .madeBy-card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0.14px 2.29266px rgba(0, 0, 0, 0.03231), 0 0.37px 4.42626px rgba(0, 0, 0, 0.04769), 0 3px 7px rgba(0, 0, 0, 0.09);
+}
+
+.madeBy .madeBy-tab .madeBy-info {
+  display: flex;
+  padding: 16px 0 12px 16px;
+}
+
+.madeBy .madeBy-tab .gig-info {
+  font-size: 14px;
+  line-height: 21px;
+  width: 100%;
+  padding-left: 12px;
+}
+
+.madeBy .madeBy-tab .gig-image {
+  height: 237px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+  transition: opacity 0.3s ease-in-out;
+  display: block;
+  position: relative;
+}
+
+.madeBy .madeBy-tab .gig-image:hover {
+  opacity: 0.8;
 }
 
 .owl-prev,
@@ -377,7 +556,7 @@ ul {
   width: 80px;
   height: 80px;
   position: absolute;
-  z-index: 1000;
+  z-index: 5;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

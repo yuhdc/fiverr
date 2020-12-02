@@ -1,3 +1,59 @@
 .bussiness {
     background-color: #0d084d;
+    padding: 80px;
+    margin-bottom: 96px;
+    .bussiness-wrapper {
+        max-width: 95%;
+        margin: 0 auto;
+        padding: 32px 32px 64px;
+    }
+}
+
+.business-text {
+    padding-right: 7%;
+    color: $color-white-0;
+    .business-new {
+        @include styleText($color-white-0, 12px, $fw-bold-1);
+        border: solid 1px 584aff;
+        background-color: #584aff;
+        padding: 3px 7px 2px;
+        border-radius: 999px;
+        text-align: center;
+    }
+    small {
+        display: block;
+        padding-bottom: 32px;
+    }
+    h2 {
+        padding-bottom: 24px;
+        @include styleText($color-white-0, $fs-5, $fw-bold-1);
+        line-height: 120%;
+    }
+    .bussiness-info {
+        @include styleText($color-white-0, $fs-3, $fw-bold-1);
+    }
+    ul {
+        padding-bottom: 20px;
+        li {
+            padding-bottom: 12px;
+            @include styleText($color-white-0, $fs-2, $fw-bold);
+            .fit-icon svg {
+                width: 100%;
+                height: 100%;
+                margin-right: 10px;
+                max-width: 24px;
+            }
+        }
+    }
+    a {
+        @include styleText($color-white-0, $fs-2, $fw-bold);
+        padding: 12px 24px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        line-height: 100%;
+        text-decoration: none;
+        -webkit-transition: 0.15s ease-in-out;
+        -o-transition: 0.15s ease-in-out;
+        transition: 0.15s ease-in-out;
+    }
 }
