@@ -1,0 +1,45 @@
+.banner {
+    padding: 120px 96px;
+    .banner-wrapper {
+        position: relative;
+        margin: 0 auto 48px;
+        overflow: hidden;
+        min-height: 440px;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+        }
+        .banner-content {
+            position: absolute;
+            top: 40%;
+            left: 15%;
+
+            transform: translate(-15%, -40%);
+            z-index: 10;
+
+            max-width: 650px;
+            h1 {
+                word-spacing: 5px;
+                @include styleText($color-white-0, $fs-6, $fw-bold-1);
+                line-height: 56px;
+                i{
+                    font-weight: normal;
+                }
+                margin-bottom: 40px;
+            }
+            button.btn{
+                letter-spacing: 2px;
+                padding: 15px 30px;
+                @include styleText($color-white-0,$fs-3,$fw-bold-0);
+
+                border: 1px solid transparent;
+                border-radius: 4px;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.guide {
+    padding: 32px;
+    h2 {
+        font-weight: $fw-bold;
+        position: relative;
+        padding: 0 20px;
+    }
+    line-height: 140%;
+    h6 {
+        padding: 15px 0 5px 0;
+        @include styleText($color-black-1, $fs-4 +2, $fw-bold);
+    }
+    p {
+        @include styleText($color-black-1, $fs-4, $fw-normal);
+    }
+}

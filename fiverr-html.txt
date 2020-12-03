@@ -1,0 +1,63 @@
+<section class="categories">
+        <div class="categories__content">
+            <h2>Explore the marketplace</h2>
+            <div class="categories__detail">
+                <div class="categories__item">
+                    <a href="#">
+                        <img src="./img/graphics-design.d32a2f8.svg">
+                        <div class="animation"></div>
+                        <span>Graphics & Design</span>
+                    </a>
+                </div>
+                <div class="categories__item">
+                    <a href="#">
+                        <img src="./img/online-marketing.74e221b.svg">
+                        <div class="animation"></div>
+                        <span>Digital Marketing</span>
+                    </a>
+                </div>
+                <div class="categories__item">
+                    <a href="#">
+                        <img src="./img/writing-translation.32ebe2e.svg">
+                        <div class="animation"></div>
+                        <span>Writing & Translation</span>
+                    </a>
+                </div>
+                <div class="categories__item">
+                    <a href="#">
+                        <img src="./img/video-animation.f0d9d71.svg">
+                        <div class="animation"></div>
+                        <span>Video & Animation</span>
+                    </a>
+                </div>
+                <div class="categories__item">
+                    <a href="#">
+                        <img src="./img/music-audio.320af20.svg">
+                        <div class="animation"></div>
+                        <span>Music & Audio</span>
+                    </a>
+                </div>
+                <div class="categories__item">
+                    <a href="#">
+                        <img src="./img/programming.9362366.svg">
+                        <div class="animation"></div>
+                        <span>Programming & Tech</span>
+                    </a>
+                </div>
+                <div class="categories__item">
+                    <a href="#">
+                        <img src="./img/business.bbdf319.svg">
+                        <div class="animation"></div>
+                        <span>Business</span>
+                    </a>
+                </div>
+                <div class="categories__item">
+                    <a href="#">
+                        <img src="./img/lifestyle.745b575.svg">
+                        <div class="animation"></div>
+                        <span>Lifestyle</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>

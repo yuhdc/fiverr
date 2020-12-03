@@ -10,12 +10,7 @@
     h2 {
         padding-bottom: 30px;
         font-weight: $fw-bold;
-    }
-    .madeBy-seeMore {
-        position: absolute;
-        right: 100px;
-        padding-top: 16px;
-        @include styleText(blue, $fs-3, $fw-normal);
+        position: relative;
     }
     .madeBy-tab {
         padding: 32px -5px 64px;
@@ -66,4 +61,10 @@
             }
         }
     }
+}
+.seeMore {
+    position: absolute;
+    right: 100px;
+    padding-top: 16px;
+    @include styleText(blue, $fs-3, $fw-normal);
 }
