@@ -43,7 +43,6 @@ ul li {
 }
 
 header {
-  position: absolute;
   position: fixed;
   z-index: 999;
   left: 0;
@@ -94,6 +93,31 @@ header .navbar-wrapper .row .navbar__menu ul .join-out {
 header .navbar-wrapper .row .navbar__menu ul .join-out:hover {
   background-color: #19a463;
   color: #fff;
+}
+
+header .navbar__search {
+  flex: 1;
+  padding: 0 100px 0 40px;
+}
+
+header .navbar__search .search-bar {
+  height: 50px;
+  line-height: 50px;
+}
+
+header .navbar__search .search-bar form {
+  display: inline-block;
+  width: 85%;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+header .navbar__search .search-bar form input {
+  width: 95%;
+}
+
+header .navbar__search .search-bar button {
+  margin-left: 0;
 }
 
 header .navbar__categories {
@@ -588,7 +612,7 @@ ul {
 }
 
 .banner {
-  padding: 120px 96px;
+  padding: 96px;
 }
 
 .banner .banner-wrapper {
@@ -637,6 +661,50 @@ ul {
   font-weight: 600;
   border: 1px solid transparent;
   border-radius: 4px;
+}
+
+footer li a {
+  border-bottom: 1px transparent #222325;
+  transition: all 0.1s ease-in-out;
+}
+
+footer li:hover a {
+  border-bottom: solid;
+}
+
+footer h5 {
+  font-weight: unset;
+}
+
+footer .footer-wrapper {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 24px;
+}
+
+footer .tabs {
+  flex-grow: 1;
+  text-align: left;
+}
+
+footer .tabs .subject {
+  color: #222325;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+footer .tabs ul > li {
+  padding-bottom: 12px;
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+footer .tabs li,
+footer .tabs small {
+  display: block;
 }
 
 .owl-prev,

@@ -31,7 +31,7 @@
     <header>
         <div class="navbar-wrapper">
             <div class="container">
-                <div class="row">
+                <div class="row d-flex">
                     <!-- responsive menu -->
                     <button class="navbar__side-menu d-xl-none"></button>
                     <!--  -->
@@ -50,8 +50,21 @@
                         </svg>
                     </a>
                     <!-- scrolling search bar -->
-                    <div class="navbar__search"></div>
-                    <!--  -->
+                    <class class="navbar__search d-none">
+                        <div class="search-bar">
+                            <form class="form-control"><span class="" style="width: 16px; height: 16px;">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.8906 14.6531L12.0969 10.8594C12.025 10.7875 11.9313 10.75 11.8313 10.75H11.4187C12.4031 9.60938 13 8.125 13 6.5C13 2.90937 10.0906 0 6.5 0C2.90937 0 0 2.90937 0 6.5C0 10.0906 2.90937 13 6.5 13C8.125 13 9.60938 12.4031 10.75 11.4187V11.8313C10.75 11.9313 10.7906 12.025 10.8594 12.0969L14.6531 15.8906C14.8 16.0375 15.0375 16.0375 15.1844 15.8906L15.8906 15.1844C16.0375 15.0375 16.0375 14.8 15.8906 14.6531ZM6.5 11.5C3.7375 11.5 1.5 9.2625 1.5 6.5C1.5 3.7375 3.7375 1.5 6.5 1.5C9.2625 1.5 11.5 3.7375 11.5 6.5C11.5 9.2625 9.2625 11.5 6.5 11.5Z">
+                                        </path>
+                                    </svg></span>
+                                <input type="search" placeholder="Find Services" value="">
+
+                            </form>
+                            <button class="btn btn-success">Search</button>
+                        </div>
+                    </class>
+                    <!-- right menu  -->
                     <nav class="navbar__menu">
                         <ul>
                             <li>
@@ -710,7 +723,8 @@
     </section>
     <section class="guide">
         <div class="fiverr-guides container-fluid">
-            <h2>Fiverr guides<a class="seeMore" href="#" target="_blank">See More Guides <i class="fa fa-angle-right"></i></a></h2>
+            <h2>Fiverr guides<a class="seeMore" href="#" target="_blank">See More Guides <i
+                        class="fa fa-angle-right"></i></a></h2>
             <div class="row">
                 <a href="#" class="guide col-xs-12 col-sm-6 col-md-4" target="_blank">
                     <img src="./img/homepage/guide-start-online-business-552-x2.png" alt="">
@@ -741,7 +755,102 @@
 
         </div>
     </section>
-    <footer></footer>
+    <footer>
+        <hr>
+        <div class="footer-wrapper container-fluid">
+            <div class="d-flex">
+                <div class="tabs">
+                    <div class="subject">
+                        <h5>Categories</h5>
+                    </div>
+                    <div class="footer-content" style="height: 0px;">
+                        <ul>
+                            <li><a href="#">Graphics &amp; Design</a></li>
+                            <li><a href="#">Digital Marketing</a></li>
+                            <li><a href="#">Writing &amp; Translation</a></li>
+                            <li><a href="#">Video &amp; Animation</a></li>
+                            <li><a href="#">Music &amp; Audio</a></li>
+                            <li><a href="#">Programming &amp; Tech</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Lifestyle</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tabs">
+                    <div class="subject">
+                        <h5>About</h5>
+                    </div>
+                    <div class="footer-content" style="height: 0px;">
+                        <ul>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press &amp; News</a></li>
+                            <li><a href="#">Partnerships</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Intellectual Property Claims</a></li>
+                            <li><a href="#" target="_blank">Investor Relations</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="tabs">
+                    <div class="subject">
+                        <h5>Support</h5>
+                    </div>
+                    <div class="footer-content" style="height: 0px;">
+                        <ul>
+                            <li><a href="#" target="_blank">Help &amp; Support</a></li>
+                            <li><a href="#">Trust &amp; Safety</a></li>
+                            <li><a href="#" target="_blank">Selling on Fiverr</a></li>
+                            <li><a href="">Buying on Fiverr</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tabs">
+                    <div class="subject">
+                        <h5>Community</h5>
+                    </div>
+                    <div class="footer-content" style="height: 0px;">
+                        <ul>
+                            <li><a href="#" target="_blank">Events</a></li>
+                            <li><a href="#" target="_blank">Blog</a></li>
+                            <li><a href="#" target="_blank">Forum</a></li>
+                            <li><a href="#" target="_blank">Community Standards</a>
+                            </li>
+                            <li><a href="#" target="_blank">Podcast</a></li>
+                            <li><a href="#" target="_blank">Affiliates</a>
+                            </li>
+                            <li><a href="#">Invite a Friend</a></li>
+                            <li><a href="#">Become a Seller</a></li>
+                            <li><a href="#" target="_blank">Fiverr Elevate<small>Exclusive
+                                        Benefits</small></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tabs">
+                    <div class="subject">
+                        <h5>More From Fiverr</h5>
+                    </div>
+                    <div class="fit-collapsible-content" style="height: 0px;">
+                        <ul>
+                            <li><a href="#">Fiverr Business</a></li>
+                            <li><a href="#">Fiverr Pro</a></li>
+                            <li><a href="#">Fiverr Studios</a></li>
+                            <li><a href="#">Fiverr Logo Maker</a></li>
+                            <li><a href="#" target="_blank">Fiverr Guides</a></li>
+                            <li><a href="#" target="_blank">Get Inspired</a></li>
+                            <li><a href="#" target="_blank">ClearVoice<small>Content Marketing</small></a></li>
+                            <li><a href="#" target="_blank">AND CO<small>Invoice Software</small></a></li>
+                            <li><a href="#" target="_blank">Learn<small>Online Courses</small></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    </footer>
 
 
 
@@ -773,15 +882,17 @@
             });
         });
     </script>
-    <!-- main js -->
+    <!-- main js navbar__search -->
     <script>
         $(window).scroll(function () {
             if ($(window).scrollTop() > 10) {
                 $('.navbar-wrapper').addClass('sub-navbar');
                 $('.header-join').removeClass('join-in');
                 $('.header-join').addClass('join-out');
+                $('.navbar__search').removeClass('d-none');
             } else {
                 $('.navbar-wrapper').removeClass('sub-navbar');
+                $('.navbar__search').addClass('d-none');
             }
             if ($(window).scrollTop() > 333) {
                 $('.navbar__categories').addClass('d-block');

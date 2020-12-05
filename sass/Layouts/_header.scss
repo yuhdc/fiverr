@@ -1,5 +1,4 @@
 header {
-    position: absolute;
     position: fixed;
     z-index: 999;
 
@@ -43,6 +42,27 @@ header {
             }
         }
     }
+    .navbar__search {
+        flex: 1;
+        padding: 0 100px 0 40px;
+        .search-bar {
+            height: 50px;
+            line-height: 50px;
+            form {
+                display: inline-block;
+                width: 85%;
+                padding-right: 0;
+                margin-right: 0;
+                input {
+                    width: 95%;
+                }
+            }
+            button {
+                margin-left: 0;
+            }
+        }
+    }
+    //
     .navbar__categories {
         display: block;
         height: 40px;
