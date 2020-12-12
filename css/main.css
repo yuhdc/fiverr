@@ -97,7 +97,8 @@ header .navbar-wrapper .row .navbar__menu ul .join-out:hover {
 
 header .navbar__search {
   flex: 1;
-  padding: 0 100px 0 40px;
+  padding-left: 40px;
+  padding-right: 10px;
 }
 
 header .navbar__search .search-bar {
@@ -107,13 +108,13 @@ header .navbar__search .search-bar {
 
 header .navbar__search .search-bar form {
   display: inline-block;
-  width: 85%;
+  width: 50%;
   padding-right: 0;
   margin-right: 0;
 }
 
 header .navbar__search .search-bar form input {
-  width: 95%;
+  width: 90%;
 }
 
 header .navbar__search .search-bar button {
@@ -663,48 +664,97 @@ ul {
   border-radius: 4px;
 }
 
-footer li a {
-  border-bottom: 1px transparent #222325;
-  transition: all 0.1s ease-in-out;
-}
-
-footer li:hover a {
-  border-bottom: solid;
-}
-
 footer h5 {
   font-weight: unset;
 }
 
 footer .footer-wrapper {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
-  padding-top: 64px;
+  padding-top: 90px;
   padding-bottom: 24px;
+  height: 600px;
 }
 
-footer .tabs {
+footer .footer-wrapper li a {
+  border-bottom: 1px transparent #222325;
+  transition: all 0.1s ease-in-out;
+}
+
+footer .footer-wrapper li:hover a {
+  border-bottom: solid;
+}
+
+footer .footer-wrapper .tabs {
   flex-grow: 1;
   text-align: left;
 }
 
-footer .tabs .subject {
+footer .footer-wrapper .tabs .subject {
   color: #222325;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
   padding-bottom: 20px;
 }
 
-footer .tabs ul > li {
+footer .footer-wrapper .tabs ul > li {
   padding-bottom: 12px;
   color: #555;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 
-footer .tabs li,
-footer .tabs small {
+footer .footer-wrapper .tabs li,
+footer .footer-wrapper .tabs small {
   display: block;
+}
+
+footer .bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  line-height: 80px;
+  align-items: center;
+  font-size: 18px;
+  height: unset;
+  padding: unset;
+  padding-top: 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .bottom-footer .right {
+  width: 500px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+footer .bottom-footer .right ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .bottom-footer .right ul #symbol-circle {
+  border: 1px solid #222325;
+  border-radius: 100%;
+}
+
+footer .bottom-footer .right ul li a {
+  border: 1px transparent;
+  border-radius: 100%;
+  transition: all 0.1s ease-in-out;
+  padding: 5px 10px;
+}
+
+footer .bottom-footer .right ul li:hover a {
+  background: #eee;
+}
+
+footer .bottom-footer .left {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .owl-prev,

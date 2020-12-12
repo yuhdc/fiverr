@@ -1,40 +1,90 @@
 footer {
-    // optimize
-    li {
-        a {
-            border-bottom: 1px transparent $color-black-0;
-            transition: all 0.1s ease-in-out;
-        }
-        &:hover a {
-            border-bottom: solid;
-        }
-    }
     h5 {
         font-weight: unset;
     }
-
-    //
     .footer-wrapper {
-        width: 95%;
+        width: 90%;
         margin: 0 auto;
-        padding-top: 64px;
+        padding-top: 90px;
         padding-bottom: 24px;
-    }
-    .tabs {
-        flex-grow: 1;
-        text-align: left;
-        .subject {
-            @include styleText($color-black-0, $fs-3, $fw-bold-0);
-            padding-bottom: 20px;
+        height: 600px;
+        li {
+            a {
+                border-bottom: 1px transparent $color-black-0;
+                transition: all 0.1s ease-in-out;
+            }
+            &:hover a {
+                border-bottom: solid;
+            }
         }
-        ul > li {
-            padding-bottom: 12px;
-            @include styleText($color-gray-3, $fs-2, $fw-normal);
-        }
+        .tabs {
+            flex-grow: 1;
+            text-align: left;
+            .subject {
+                @include styleText($color-black-0, $fs-4, $fw-bold-0);
+                padding-bottom: 20px;
+            }
+            ul > li {
+                padding-bottom: 12px;
+                @include styleText($color-gray-3, $fs-3, $fw-normal);
+            }
 
-        li,
-        small {
-            display: block;
+            li,
+            small {
+                display: block;
+            }
+        }
+    }
+
+    .bottom-footer {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        line-height: 80px;
+        align-items: center;
+        font-size: $fs-3;
+        height: unset;
+        padding: unset;
+        padding-top: 5px;
+
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        .right {
+            width: 500px;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            ul {
+                display: flex;
+                justify-content: space-around;
+                #symbol-circle {
+                    border: 1px solid $color-black-0;
+                    border-radius: 100%;
+                }
+                li {
+                    a {
+                        border: 1px transparent;
+                        border-radius: 100%;
+                        transition: all 0.1s ease-in-out;
+                        padding: 5px 10px;
+                    }
+                    &:hover a {
+                        background: $color-gray-8;
+                    }
+                }
+            }
+        }
+        .left {
+            // flex: 5;
+            width: 360px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
     }
 }
